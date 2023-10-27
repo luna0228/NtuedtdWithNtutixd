@@ -99,13 +99,14 @@
    font-family: 'Acme';
    position: relative;
    transition: all ease-in-out 1.2s;
+   z-index: 0;
  }
 
- #homeNtut.homeSchool {
+ .homeSchool.homeNtut {
    background-color: #FFF9F0;
  }
 
- #homeNtue.homeSchool {
+ .homeSchool.homeNtue {
    background-color: #E9F7EE;
  }
 
@@ -118,15 +119,16 @@
    top: 0;
    transform: translateY(-50%);
    transition: all ease-in-out .8s;
+   z-index: -1;
  }
 
- #homeNtut.homeSchool::before {
+ .homeSchool.homeNtut::before {
    background-color: #F4E4D1;
    left: 0;
    transform-origin: left top;
  }
 
- #homeNtue.homeSchool::before {
+ .homeSchool.homeNtue::before {
    background-color: #DCEBE1;
    right: 0;
    transform-origin: right top;
@@ -139,25 +141,26 @@
    position: absolute;
    bottom: 0;
    transition: all ease-in-out 1.3s;
+   z-index: -1;
  }
 
- #homeNtut.homeSchool .homeElf {
+ .homeSchool.homeNtut .homeElf {
    left: 0;
    transform: translateX(-55%) translateY(55%);
    background-color: #F4E4D1;
  }
 
- #homeNtue.homeSchool .homeElf {
+ .homeSchool.homeNtue .homeElf {
    right: 0;
    transform: translateX(55%) translateY(55%);
    background-color: #DCEBE1;
  }
 
- #homeNtut.homeSchool:hover .homeElf {
+ .homeSchool.homeNtut:hover .homeElf {
    transform: translateX(-30%) translateY(30%);
  }
 
- #homeNtue.homeSchool:hover .homeElf {
+ .homeSchool.homeNtue:hover .homeElf {
    transform: translateX(30%) translateY(30%);
  }
 
@@ -172,19 +175,19 @@
    background-color: #fff;
  }
 
- #homeNtut.homeSchool .homeElf .eye {
+ .homeSchool.homeNtut .homeElf .eye {
    right: 22%;
  }
 
- #homeNtut.homeSchool .homeElf .eye:nth-child(2) {
+ .homeSchool.homeNtut .homeElf .eye:nth-child(2) {
    right: 30%;
  }
 
- #homeNtue.homeSchool .homeElf .eye {
+ .homeSchool.homeNtue .homeElf .eye {
    left: 22%;
  }
 
- #homeNtue.homeSchool .homeElf .eye:nth-child(2) {
+ .homeSchool.homeNtue .homeElf .eye:nth-child(2) {
    left: 30%;
  }
 
@@ -199,7 +202,7 @@
    background-color: #8C8C8C;
  }
 
- #homeNtue.homeSchool .homeElf .eye::before {
+ .homeSchool.homeNtue .homeElf .eye::before {
    content: "";
    right: auto;
    left: 0;
@@ -230,16 +233,16 @@
    flex: 0 0 60%;
  }
 
-
- #homeNtut.homeSchool:hover::before {
+ .homeSchool:hover::before {
    width: 220px;
    height: 220px;
+ }
+
+ .homeSchool.homeNtut:hover::before {
    transform: translateY(-20%) translateX(-20%);
  }
 
- #homeNtue.homeSchool:hover::before {
-   width: 220px;
-   height: 220px;
+ .homeSchool.homeNtue:hover::before {
    transform: translateY(-20%) translateX(20%);
  }
 
@@ -277,25 +280,219 @@
    transform: translateY(-50%);
  }
 
- #homeNtut.homeSchool .homeTitle h1::before,
- #homeNtut.homeSchool .homeTitle h1::after {
+ .homeSchool.homeNtut .homeTitle h1::before,
+ .homeSchool.homeNtut .homeTitle h1::after {
    border-radius: 50%;
    background-color: #F2BF8C;
  }
 
- #homeNtue.homeSchool .homeTitle h1::before,
- #homeNtue.homeSchool .homeTitle h1::after {
+ .homeSchool.homeNtue .homeTitle h1::before,
+ .homeSchool.homeNtue .homeTitle h1::after {
    border-radius: 5px;
    background-color: #ACD2BF;
    transform: rotate(45deg);
    transform-origin: right;
  }
 
- .solgan {
+ .homeSchool .solgan {
    color: #787878;
    font-size: 2.5rem;
    letter-spacing: 2px;
    padding: 80px 0;
    width: 80%;
    line-height: 1.5;
+ }
+
+
+ @media(max-width:1440px) {
+   .btn-basic {
+     font-size: 1.25rem;
+     min-width: 120px;
+     padding: 16px 30px;
+     border-radius: 10px;
+     box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+   }
+
+   .homeTitle {
+     padding: 10px 0;
+   }
+
+   .homeTitle h1 {
+     font-size: 4rem;
+   }
+
+   .homeTitle h1::before,
+   .homeTitle h1::after {
+     width: 20px;
+     height: 20px;
+   }
+
+   .homeTitle h1::before {
+     left: -60px;
+   }
+
+   .homeTitle h1::after {
+     right: -60px;
+   }
+
+   .homeSchool .solgan {
+     font-size: 1.75rem;
+     padding: 60px 0;
+   }
+
+   .homeSchool::before {
+     width: 150px;
+     height: 150px;
+   }
+
+   .homeElf {
+     width: 320px;
+     height: 320px;
+   }
+
+   .homeSchool:hover::before {
+     width: 180px;
+     height: 180px;
+   }
+ }
+
+ @media(max-width:991px) {
+   .homeTitle h1 {
+     font-size: 2.75rem;
+   }
+
+   .homeTitle h1::before,
+   .homeTitle h1::after {
+     width: 15px;
+     height: 15px;
+   }
+
+   .homeTitle h1::before {
+     left: -40px;
+   }
+
+   .homeTitle h1::after {
+     right: -40px;
+   }
+
+   .homeSchool.homeNtue .homeTitle h1::before,
+   .homeSchool.homeNtue .homeTitle h1::after {
+     border-radius: 3px;
+   }
+
+   .homeSchool .solgan {
+     font-size: 1.25rem;
+     padding: 40px 0;
+     width: 100%;
+   }
+
+   .btn-basic {
+     font-size: 1rem;
+     min-width: 80px;
+     padding: 12px 24px;
+   }
+ }
+
+ @media(max-width:767px) {
+   .wrapper.home {
+     flex-direction: column;
+     height: 100vh;
+   }
+
+   .homeSchool {
+     width: 100%;
+     flex: 0 1 100% !important;
+     overflow: hidden;
+   }
+
+   .homeSchool::before {
+     width: 80px;
+     height: 80px;
+   }
+
+   .homeSchool:hover::before {
+     width: 100px;
+     height: 100px;
+   }
+
+   .homeSchool.homeNtut::before {
+     left: auto;
+     right: 0;
+   }
+
+   .homeSchool.homeNtut:hover::before,
+   .homeSchool.homeNtue:hover::before {
+     transform: translateY(-20%) translateX(20%);
+   }
+
+   .homeSchool .homeBox {
+     padding: 20px 32px 30px;
+   }
+
+   .homeTitle h1 {
+     font-size: 2rem;
+   }
+
+   .homeTitle h1::before,
+   .homeTitle h1::after {
+     width: 10px;
+     height: 10px;
+   }
+
+   .homeSchool .solgan {
+     font-size: 1.25rem;
+     padding: 20px 0;
+   }
+
+   .homeElf {
+     width: 200px;
+     height: 200px;
+   }
+
+   .homeSchool.homeNtue .homeElf {
+     left: 0;
+     right: auto;
+     transform: translateX(-55%) translateY(55%);
+   }
+
+   .homeSchool.homeNtut:hover .homeElf,
+   .homeSchool.homeNtue:hover .homeElf {
+     transform: translateX(-40%) translateY(50%);
+   }
+
+   /* 
+   .homeSchool.homeNtue:hover .homeElf {
+     transform: translateX(40%) translateY(50%);
+   } */
+
+   .homeElf .eye {
+     width: 16px;
+     height: 22px;
+   }
+
+   .homeElf .eye::before {
+     content: "";
+     width: 8px;
+     height: 11px;
+   }
+
+   .homeSchool.homeNtue .homeElf .eye {
+     right: 22%;
+     left: auto;
+   }
+
+   .homeSchool.homeNtut .homeElf .eye:nth-child(2),
+   .homeSchool.homeNtue .homeElf .eye:nth-child(2) {
+     right: 32%;
+     left: auto;
+   }
+
+   /* .homeSchool.homeNtue .homeElf .eye:nth-child(2) {
+     left: 32%;
+   } */
+
+   .homeSchool.homeNtue .homeElf .eye::before {
+     left: auto;
+     right: 0;
+   }
  }

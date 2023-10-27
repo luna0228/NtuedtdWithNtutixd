@@ -1,6 +1,6 @@
-export default function Content({ homeSchool, id, btnColor }) {
+export default function Content({ homeSchool, homeSchool_className, btnColor }) {
     return (
-        <div className="homeSchool" id={id}>
+        <div className={`homeSchool ${homeSchool_className}`}>
             <div className="homeBox text-center">
                 <div className="homeTitle">
                     <h1>{homeSchool}</h1>

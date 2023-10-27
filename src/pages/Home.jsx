@@ -31,8 +31,8 @@ function Home() {
                     <span className="eye"></span>
                 </div>
             </div> */}
-            <HomeSchool homeSchool="IXD" id="homeNtut" btnColor="btn-orange" />
-            <HomeSchool homeSchool="DTD" id="homeNtue" btnColor="btn-green" />
+            <HomeSchool homeSchool="IXD" homeSchool_className="homeNtut" btnColor="btn-orange" />
+            <HomeSchool homeSchool="DTD" homeSchool_className="homeNtue" btnColor="btn-green" />
             {/* <div className={hovered ? 'homeSchool homeNtue' : 'homeSchool homeNtue active'}
                 onMouseEnter={toggleHover}
                 onMouseLeave={toggleHover}>
