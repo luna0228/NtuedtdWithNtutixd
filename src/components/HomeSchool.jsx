@@ -1,4 +1,6 @@
-export default function Content({ homeSchool, homeSchool_className, btnColor }) {
+import { Link } from "react-router-dom";
+
+export default function HomeSchool({ homeSchool, homeSchool_className, btnColor, link }) {
     return (
         <div className={`homeSchool ${homeSchool_className}`}>
             <div className="homeBox text-center">
@@ -11,7 +13,8 @@ export default function Content({ homeSchool, homeSchool_className, btnColor }) 
                     WEBSITE DESIGN<br />
                     AND DEVELOPMENT<br />
                 </div>
-                <a href="" className={`btn-basic ${btnColor}`}>VIEW</a>
+                {/* Router 傳入“link”值 */}
+                <Link to={`works/${link}`} className={`btn-basic ${btnColor}`}>VIEW</Link>
             </div>
             <div className="homeElf">
                 <span className="eye"></span>

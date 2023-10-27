@@ -18,7 +18,7 @@
  a {
    transition: all ease-in-out .3s;
    color: #202020;
-   text-decoration: none;
+   text-decoration: none !important;
  }
 
  a:hover {
@@ -47,6 +47,10 @@
    overflow: hidden;
    display: flex;
    width: 100%;
+ }
+
+ .wrapper.page {
+   flex-direction: column;
  }
 
  ul,
@@ -303,6 +307,69 @@
    line-height: 1.5;
  }
 
+ /*works*/
+ .worksList ul {
+   display: flex;
+   flex-wrap: wrap;
+   margin: 0 -24px;
+ }
+
+ .worksList li.workItem {
+   width: 33.3%;
+   padding: 0 24px;
+   margin: 20px 0;
+ }
+
+ .worksList li.workItem .workItemInner {
+   overflow: hidden;
+   border-radius: 20px;
+   box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+ }
+
+ .worksList li.workItem .workItemInner>a {
+   display: block;
+ }
+
+ .worksList li.workItem .imgBox {
+   overflow: hidden;
+   height: 250px;
+   transition: all ease-in-out .5s;
+ }
+
+
+ .worksList li.workItem .workItemInner>a:hover .imgBox {
+   padding: 5px;
+ }
+
+ .worksList li.workItem .imgBox img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   transition: all ease-in-out .5s;
+ }
+
+ .worksList li.workItem .workItemInner>a:hover .imgBox img {
+   border-radius: 20px;
+ }
+
+ .worksList li.workItem .textBox {
+   padding: 0 20px;
+ }
+
+ .workTitle {
+   padding: 8px 0;
+ }
+
+ .workTitle h4 {
+   font-size: 1.125rem;
+   font-weight: 500;
+   margin: 0;
+ }
+
+ .worksList li.workItem .bottomContent {
+   padding: 10px 20px;
+ }
+
 
  @media(max-width:1440px) {
    .btn-basic {
@@ -356,6 +423,12 @@
    }
  }
 
+ @media(max-width:1199px) {
+   .worksList li.workItem .imgBox {
+     height: 180px;
+   }
+ }
+
  @media(max-width:991px) {
    .homeTitle h1 {
      font-size: 2.75rem;
@@ -390,6 +463,14 @@
      font-size: 1rem;
      min-width: 80px;
      padding: 12px 24px;
+   }
+
+   .worksList li.workItem {
+     width: 50%;
+   }
+
+   .worksList li.workItem .imgBox {
+     height: 200px;
    }
  }
 
@@ -494,5 +575,13 @@
    .homeSchool.homeNtue .homeElf .eye::before {
      left: auto;
      right: 0;
+   }
+
+   .worksList li.workItem {
+     width: 100%;
+   }
+
+   .worksList li.workItem .imgBox {
+     height: 250px;
    }
  }
