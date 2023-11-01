@@ -18,7 +18,7 @@ function App() {
         {/* 設定Router */}
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="works/:worksName" element={<Works />} />
+          <Route path="works/:school/:semester" element={<Works />} />
         </Routes>
       </BrowserRouter>
     </HelmetProvider>

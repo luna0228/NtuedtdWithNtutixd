@@ -9,8 +9,8 @@ function Home() {
                 <title>首頁</title>
             </Helmet>
             {/* component */}
-            <HomeSchool homeSchool="IXD" homeSchool_className="homeNtut" btnColor="btn-orange" link="ntut" />
-            <HomeSchool homeSchool="DTD" homeSchool_className="homeNtue" btnColor="btn-green" link="ntue" />
+            <HomeSchool homeSchool="IXD" homeSchool_className="homeNtut" school="ntut" semester="111-2" />
+            <HomeSchool homeSchool="DTD" homeSchool_className="homeNtue" school="ntue" semester="111-2" />
 
         </div>
     );

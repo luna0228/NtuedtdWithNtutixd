@@ -88,14 +88,6 @@
    transform: translateY(5px);
  }
 
- .btn-orange {
-   background-color: #F2BF8C;
- }
-
- .btn-green {
-   background-color: #ACD2BF;
- }
-
  .text-gray {
    color: #999;
  }
@@ -311,8 +303,59 @@
    line-height: 1.5;
  }
 
- /*content*/
+ .homeSchool.homeNtut .btn-basic {
+   background-color: #F2BF8C;
+ }
 
+ .homeSchool.homeNtue .btn-basic {
+   background-color: #ACD2BF;
+ }
+
+ /*content*/
+ .show-md {
+   display: block;
+ }
+
+ .hide-md {
+   display: none;
+ }
+
+ .pageTitle {
+   margin: 24px 0;
+   text-align: center;
+   position: relative;
+ }
+
+ .pageTitle h2 {
+   color: #787878;
+   font-size: 1.875rem;
+   font-weight: 500;
+   padding: 0 8px;
+   display: inline-block;
+   margin: 0;
+ }
+
+ .pageTitle::before {
+   content: "";
+   width: calc(50% - 55px);
+   height: 1px;
+   background-color: #DCEBE1;
+   position: absolute;
+   top: 50%;
+   left: 0;
+   transform: translateY(-50%);
+ }
+
+ .pageTitle::after {
+   content: "";
+   width: calc(50% - 55px);
+   height: 1px;
+   background-color: #DCEBE1;
+   position: absolute;
+   top: 50%;
+   right: 0;
+   transform: translateY(-50%);
+ }
 
 
  /*works*/
@@ -461,6 +504,14 @@
    font-size: .75rem;
  }
 
+ .bannerImg {
+   margin: 56px 0 24px;
+ }
+
+ .bannerImg img {
+   width: 100%;
+ }
+
  /*ntut*/
  .page-ntut {
    background: linear-gradient(to bottom, rgba(255, 250, 240, 1) 0%, rgba(245, 244, 239, 1) 30%, rgba(255, 255, 255, 1) 100%);
@@ -480,6 +531,30 @@
 
 
  /*RWD*/
+ @media (min-width: 576px) {
+   .container.page-container {
+     max-width: 100%;
+   }
+ }
+
+ @media (min-width: 768px) {
+   .container.page-container {
+     max-width: 720px;
+   }
+ }
+
+ @media (min-width: 992px) {
+   .container.page-container {
+     max-width: 960px;
+   }
+ }
+
+ @media (min-width: 1200px) {
+   .container.page-container {
+     max-width: 1140px;
+   }
+ }
+
 
 
  @media(max-width:1440px) {
@@ -590,6 +665,20 @@
  }
 
  @media(max-width:767px) {
+   .show-md {
+     display: none;
+
+   }
+
+   .hide-md {
+     display: block;
+   }
+
+   .container.page-container {
+     padding: 0;
+     width: 100%;
+   }
+
    .wrapper.home {
      flex-direction: column;
      height: 100vh;

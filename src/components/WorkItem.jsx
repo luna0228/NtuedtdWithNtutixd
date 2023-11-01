@@ -4,9 +4,9 @@ import notFoundImgNtue from "../assets/cardimgNtue.png"
 import setting from "../assets/Setting.svg"
 
 export default function WorkItem({ WorksList_semester, worksName, worksSemester }) {
+
     // 圖片Error
     const add404Img = (ev) => {
-        console.log(worksName)
         if (worksName == 'ntut') {
             ev.target.src = notFoundImgNtut
         }
@@ -47,10 +47,10 @@ export default function WorkItem({ WorksList_semester, worksName, worksSemester 
     }
 
     return (
-        WorksList_semester.map(workItem => (
-            <li className="workItem" key={workItem.workName}>
+        WorksList_semester.map((workItem, index) => (
+            <li className="workItem" key={`${workItem.workName}_${index}`}>
                 <div className="workItemInner">
-                    <a href={workItem.websiteUrl} title="">
+                    <a href={workItem.websiteUrl} title="" target="_blank">
                         <div className="imgBox">
                             <img src={workItem.imgUrl} onError={add404Img} alt={workItem.imgUrl} />
                         </div>

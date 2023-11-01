@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-export default function HomeSchool({ homeSchool, homeSchool_className, btnColor, link }) {
+export default function HomeSchool({ homeSchool, homeSchool_className, school, semester }) {
     return (
         <div className={`homeSchool ${homeSchool_className}`}>
             <div className="homeBox text-center">
@@ -14,7 +14,7 @@ export default function HomeSchool({ homeSchool, homeSchool_className, btnColor,
                     AND DEVELOPMENT<br />
                 </div>
                 {/* Router 傳入“link”值 */}
-                <Link to={`works/${link}`} className={`btn-basic ${btnColor}`}>VIEW</Link>
+                <Link to={`works/${school}/${semester}`} className="btn-basic">VIEW</Link>
             </div>
             <div className="homeElf">
                 <span className="eye"></span>
