@@ -96,6 +96,10 @@
    background-color: #ACD2BF;
  }
 
+ .text-gray {
+   color: #999;
+ }
+
  /*home*/
  .homeSchool {
    width: 50%;
@@ -307,6 +311,10 @@
    line-height: 1.5;
  }
 
+ /*content*/
+
+
+
  /*works*/
  .worksListBox ul.worksList {
    display: flex;
@@ -317,13 +325,14 @@
  .worksList li.workItem {
    width: 33.3%;
    padding: 0 24px;
-   margin: 20px 0;
+   margin: 24px 0;
  }
 
  .worksList li.workItem .workItemInner {
    overflow: hidden;
    border-radius: 20px;
    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+   background-color: #fff;
  }
 
  .worksList li.workItem .workItemInner>a {
@@ -334,11 +343,28 @@
    overflow: hidden;
    height: 250px;
    transition: all ease-in-out .5s;
+   position: relative;
  }
 
+ .worksList li.workItem .imgBox::before {
+   content: "";
+   width: calc(100% - 10px);
+   height: calc(100% - 10px);
+   border-radius: 20px;
+   background: rgba(26, 26, 26, .06);
+   position: absolute;
+   left: 5px;
+   top: 5px;
+   opacity: 0;
+   transition: all ease-in-out .5s;
+ }
 
  .worksList li.workItem .workItemInner>a:hover .imgBox {
    padding: 5px;
+ }
+
+ .worksList li.workItem .workItemInner>a:hover .imgBox::before {
+   opacity: 1;
  }
 
  .worksList li.workItem .imgBox img {
@@ -361,14 +387,99 @@
  }
 
  .workTitle h4 {
-   font-size: 1.125rem;
+   font-size: 1rem;
+   line-height: 1.5;
    font-weight: 500;
    margin: 0;
  }
 
- .worksList li.workItem .bottomContent {
-   padding: 10px 20px;
+ .workTitle .workAuthors {
+   font-size: .875rem;
+   margin: 0 -7px;
+   line-height: 1.5;
  }
+
+ .workTitle .workAuthors span {
+   padding: 0 7px;
+   position: relative;
+ }
+
+ .workTitle .workAuthors span:after {
+   content: "・";
+   position: absolute;
+   right: -8px;
+ }
+
+ .workTitle .workAuthors span:last-child:after {
+   display: none;
+ }
+
+ .workItem .skillTags {
+   margin: 0 -6px;
+   padding: 12px 0;
+   height: 80px;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: flex-start;
+ }
+
+ .workItem .skillTags li {
+   padding: 0 6px;
+   margin-bottom: 5px;
+ }
+
+ .workItem .skillTags li span {
+   font-size: .75rem;
+   border: 1px solid #8C8C8C;
+   padding: 0 8px;
+   border-radius: 8px;
+   display: inline-block;
+   color: #333;
+ }
+
+ .workItem .bottomContent {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px;
+ }
+
+ .workItem .bottomContent .workLink {
+   display: flex;
+   margin: 0 -6px;
+ }
+
+ .workItem .bottomContent .workLink a {
+   padding: 0 6px;
+ }
+
+ .workItem .bottomContent .workLink a img {
+   width: 24px;
+ }
+
+ .workItem .bottomContent .remark {
+   font-size: .75rem;
+ }
+
+ /*ntut*/
+ .page-ntut {
+   background: linear-gradient(to bottom, rgba(255, 250, 240, 1) 0%, rgba(245, 244, 239, 1) 30%, rgba(255, 255, 255, 1) 100%);
+   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+ }
+
+
+ /*ntue*/
+ .page-ntue {
+   background: linear-gradient(to bottom, rgba(240, 255, 245, 1) 0%, rgba(239, 245, 240, 1) 30%, rgba(255, 255, 255, 1) 100%);
+   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+ }
+
+
+
+
+
+
+ /*RWD*/
 
 
  @media(max-width:1440px) {
@@ -420,6 +531,10 @@
    .homeSchool:hover::before {
      width: 180px;
      height: 180px;
+   }
+
+   .worksList li.workItem .imgBox {
+     height: 220px;
    }
  }
 
@@ -541,11 +656,6 @@
      transform: translateX(-40%) translateY(50%);
    }
 
-   /* 
-   .homeSchool.homeNtue:hover .homeElf {
-     transform: translateX(40%) translateY(50%);
-   } */
-
    .homeElf .eye {
      width: 16px;
      height: 22px;
@@ -568,13 +678,18 @@
      left: auto;
    }
 
-   /* .homeSchool.homeNtue .homeElf .eye:nth-child(2) {
-     left: 32%;
-   } */
-
    .homeSchool.homeNtue .homeElf .eye::before {
      left: auto;
      right: 0;
+   }
+
+   .container {
+     padding-left: 20px;
+     padding-right: 20px;
+   }
+
+   .worksListBox ul.worksList {
+     padding: 0 12px;
    }
 
    .worksList li.workItem {
@@ -583,5 +698,24 @@
 
    .worksList li.workItem .imgBox {
      height: 250px;
+   }
+
+   .worksList li.workItem .textBox {
+     padding: 0 12px;
+   }
+
+   .workItem .skillTags {
+     padding: 8px 0;
+     height: 68px;
+   }
+
+   .workItem .bottomContent {
+     padding: 12px;
+   }
+ }
+
+ @media(max-width:480px) {
+   .worksList li.workItem .imgBox {
+     height: 220px;
    }
  }

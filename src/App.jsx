@@ -1,5 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { HelmetProvider } from "react-helmet-async";
+
+import "./bootstrap.min.css";
 import './App.css'
 
 import Home from "./pages/Home";

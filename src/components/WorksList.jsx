@@ -6,7 +6,7 @@ import Navigation from "./Navigation";
 import WorksListJson from "../json/WorksList.json"
 import { getWorksList } from "../api";
 
-export default function WorksList({ worksName }) {
+export default function WorksList({ worksName, worksSemester }) {
     //非同步接資料
     const [WorksList, setWorksList] = useState(WorksListJson);
     const getWorksListData = async () => {
@@ -21,8 +21,8 @@ export default function WorksList({ worksName }) {
             {/* <h1>{worksName}</h1> */}
             <div className="container">
                 <ul className="worksList">
-                    {/* component 傳入json */}
-                    <WorkItem WorksList_semester={WorksList[`${worksName}`]['111-2']}></WorkItem>
+                    {/* component 傳入json 、代入的學期*/}
+                    <WorkItem WorksList_semester={WorksList[`${worksName}`][`${worksSemester}`]} worksName={worksName} worksSemester={worksSemester}></WorkItem>
                 </ul>
                 <Navigation></Navigation>
 
