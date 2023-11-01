@@ -719,3 +719,40 @@
      height: 220px;
    }
  }
+
+ /*蓉*/
+ .container-fluid a.navbar-brand {
+   padding-left: 69px;
+   color: #5F8575;
+ }
+
+ .container nav.navbar {
+   background-color: #d2f5e6;
+ }
+
+ .pageBanner nav.breadcrumb {
+   background-color: #d2f5e6;
+ }
+
+ .pageBanner li.breadcrumb-item {
+   color: #5F8575;
+   margin-top: 50px;
+ }
+
+ .pageBanner ol.breadcrumb {
+   padding-left: 100px;
+   background-color: #d2f5e6;
+ }
+
+ .pageBanner a {
+   color: #5F8575;
+ }
+
+ .pageBanner {
+   background-color: #d2f5e6;
+ }
+
+ .breadcrumb2 ol.breadcrumb {
+   padding-right: 100px;
+   background-color: #d2f5e6;
+ }
