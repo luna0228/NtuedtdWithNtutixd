@@ -846,10 +846,18 @@
    background-color: #d2f5e6;
  }
 /* 以下是耕締，用在pagination的樣式，1102 */
+.PaginationBox{
+  display: flex;
+  width: 100%;
+  padding: var(--G12px, 12px) var(--G80px, 80px);
+  justify-content: center;
+  align-items: center;
+  color: #434343;
+}
+
 .customPagination .ant-pagination-item {
   font-family: Noto Sans TC;
   font-size: 14px;
-  color: #434343;
   background-color: transparent;              
 }
 
@@ -862,4 +870,11 @@
   background-color: #ffffff;    /* 更改激活状态的背景颜色 */
   color: #1677FF;                 /* 更改激活状态的文字颜色 */
   border-color: #1677FF;            /* 更改激活状态的边框颜色 */
+}
+
+/* 隱藏分頁控件在小屏幕下 */
+@media (max-width: 576px) {
+  .customPagination {
+    display: none;
+  }
 }

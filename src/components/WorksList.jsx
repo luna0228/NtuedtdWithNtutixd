@@ -13,12 +13,22 @@ export default function WorksList({ school, semester }) {
     // }
     //耕締以下新增
     const [currentPage, setCurrentPage]=useState(1); //新增當前頁碼
-    const itemsPerPage = 12; //每頁顯示的 WorkItem數量為12
+    const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+    // const itemsPerPage = 12; //每頁顯示的 WorkItem數量為12
+    const itemsPerPage = windowWidth <= 576 ? WorksList[school][semester].length : 12; // 在576px以上顯示至多十二個
     // const schoolData = WorksList[school];
-    // const semesterData = schoolData ? schoolData[semester] : [];
+    // const semesterData = schoolData ? schoolData[semester] : []; //
     const semesterData = WorksList[school]?.[semester] ?? [];
     const totalWorks = semesterData.length;
     const totalPages = Math.ceil(totalWorks / itemsPerPage);
+
+    // 使用 useEffect 鉤子來監聽瀏覽器窗口的大小變化，因為要判斷576px視窗時把更動每頁顯示的卡片數
+    useEffect(() => {
+        const handleResize = () => setWindowWidth(window.innerWidth);
+        window.addEventListener("resize", handleResize);
+        return () => window.removeEventListener("resize", handleResize);
+      }, []);
+
 
     // 使用 useEffect 来调用 getWorksListData
     useEffect(() => {  
@@ -37,11 +47,11 @@ export default function WorksList({ school, semester }) {
         currentPage * itemsPerPage
     );
 
-    // console.log("Current WorksList:", WorksList);
-    // console.log(school + "," + semester);
-    // console.log("Current Works:", currentWorks);
-    // console.log("Total Works:", totalWorks);
-    // console.log("Total Pages:", totalPages);
+    console.log("Current WorksList:", WorksList);
+    console.log(school + "," + semester);
+    console.log("Current Works:", currentWorks);
+    console.log("Total Works:", totalWorks);
+    console.log("Total Pages:", totalPages);
 
     return (
         <div className="worksListBox">
