@@ -14,31 +14,34 @@ export default function WorksList({ school, semester }) {
     //耕締以下新增
     const [currentPage, setCurrentPage]=useState(1); //新增當前頁碼
     const itemsPerPage = 12; //每頁顯示的 WorkItem數量為12
+    // const schoolData = WorksList[school];
+    // const semesterData = schoolData ? schoolData[semester] : [];
+    const semesterData = WorksList[school]?.[semester] ?? [];
+    const totalWorks = semesterData.length;
+    const totalPages = Math.ceil(totalWorks / itemsPerPage);
+
     // 使用 useEffect 来调用 getWorksListData
     useEffect(() => {  
         const getWorksListData = async () => {
             const response = await getWorksList();
             setWorksList(response);
             console.log("Updated WorksList:", response);
-        };
+        }
         getWorksListData();
-    }, []);  // 空数组表示只在组件挂载时调用
-    
-    console.log("Current WorksList:", WorksList);
-    // getWorksListData();
-    console.log(school + "," + semester);
-    //耕締新增
-    const schoolData = WorksList[school];
-    const semesterData = schoolData ? schoolData[semester] : [];
-    const totalWorks = semesterData.length;
-    const totalPages = Math.ceil(totalWorks / itemsPerPage);
+    }, []);  // 空数组表示只在组件挂载时调用，添加 currentPage 作为依赖项
 
-    const currentWorks = WorksList[school][semester].slice(
+
+    // const currentWorks = WorksList[school][semester].slice(
+    const currentWorks = semesterData.slice(
         (currentPage - 1) * itemsPerPage,
         currentPage * itemsPerPage
-      );
+    );
 
-    console.log("Current Works:", currentWorks);
+    // console.log("Current WorksList:", WorksList);
+    // console.log(school + "," + semester);
+    // console.log("Current Works:", currentWorks);
+    // console.log("Total Works:", totalWorks);
+    // console.log("Total Pages:", totalPages);
 
     return (
         <div className="worksListBox">
