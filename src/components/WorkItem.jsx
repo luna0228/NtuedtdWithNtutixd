@@ -3,7 +3,7 @@ import notFoundImgNtut from "../assets/cardimgNtut.png"
 import notFoundImgNtue from "../assets/cardimgNtue.png"
 import setting from "../assets/Setting.svg"
 
-export default function WorkItem({ WorksList_semester, worksName, worksSemester }) {
+export default function WorkItem({ WorksListSemester, worksName, worksSemester }) {
 
     // 圖片Error
     const add404Img = (ev) => {
@@ -46,20 +46,70 @@ export default function WorkItem({ WorksList_semester, worksName, worksSemester 
         return school
     }
 
-    return (
-        WorksList_semester.map((workItem, index) => (
-            <li className="workItem" key={`${workItem.workName}_${index}`}>
+    // 原先的寫法
+    // return (
+    //     WorksList_semester.map((workItem, index) => (
+    //         <li className="workItem" key={`${workItem.workName}_${index}`}>
+    //             <div className="workItemInner">
+    //                 <a href={workItem.websiteUrl} title="" target="_blank">
+    //                     <div className="imgBox">
+    //                         <img src={workItem.imgUrl} onError={add404Img} alt={workItem.imgUrl} />
+    //                     </div>
+    //                 </a>
+    //                 <div className="textBox">
+    //                     <div className="workTitle">
+    //                         <h4>{workItem.workName}</h4>
+    //                         <p className="text-gray workAuthors">
+    //                             {workItem.name.map((workAuthor, index) => {
+    //                                 return (
+    //                                     <span key={index}>{workAuthor}</span>
+    //                                 );
+    //                             })}
+    //                         </p>
+    //                     </div>
+    //                     <ul className="skillTags">
+    //                         {workItem.skill.slice(0, 5).map((skillTag, index) => {
+    //                             return (
+    //                                 <li key={index}>
+    //                                     <span className="skillTag">{skillTag}</span>
+    //                                 </li>
+
+    //                             );
+    //                         })}
+    //                     </ul>
+    //                 </div>
+    //                 <div className="bottomContent">
+    //                     <div className="workLink">
+    //                         <a href={workItem.pptUrl} title="PPT">
+    //                             <img src={setting} alt="PPT"></img>
+    //                         </a>
+    //                         <a href={workItem.githubUrl} title="github">
+    //                             <img src={setting} alt="github"></img>
+    //                         </a>
+    //                     </div>
+    //                     <div className="remark">
+    //                         {ChangeWorksSemester()}・{ChangeworksName()}
+    //                     </div>
+    //                 </div>
+    //             </div>
+    //         </li>
+    //     ))
+    // )
+
+    //締的寫法
+        return (
+            <li className="workItem" key={`${WorksListSemester.workName}`}>
                 <div className="workItemInner">
-                    <a href={workItem.websiteUrl} title="" target="_blank">
+                    <a href={WorksListSemester.websiteUrl} title="" target="_blank">
                         <div className="imgBox">
-                            <img src={workItem.imgUrl} onError={add404Img} alt={workItem.imgUrl} />
+                            <img src={WorksListSemester.imgUrl} onError={add404Img} alt={WorksListSemester.imgUrl} />
                         </div>
                     </a>
                     <div className="textBox">
                         <div className="workTitle">
-                            <h4>{workItem.workName}</h4>
+                            <h4>{WorksListSemester.workName}</h4>
                             <p className="text-gray workAuthors">
-                                {workItem.name.map((workAuthor, index) => {
+                                {WorksListSemester.name.map((workAuthor, index) => {
                                     return (
                                         <span key={index}>{workAuthor}</span>
                                     );
@@ -67,22 +117,21 @@ export default function WorkItem({ WorksList_semester, worksName, worksSemester 
                             </p>
                         </div>
                         <ul className="skillTags">
-                            {workItem.skill.slice(0, 5).map((skillTag, index) => {
+                            {WorksListSemester.skill.slice(0, 5).map((skillTag, index) => {
                                 return (
                                     <li key={index}>
                                         <span className="skillTag">{skillTag}</span>
                                     </li>
-
                                 );
                             })}
                         </ul>
                     </div>
                     <div className="bottomContent">
                         <div className="workLink">
-                            <a href={workItem.pptUrl} title="PPT">
+                            <a href={WorksListSemester.pptUrl} title="PPT">
                                 <img src={setting} alt="PPT"></img>
                             </a>
-                            <a href={workItem.githubUrl} title="github">
+                            <a href={WorksListSemester.githubUrl} title="github">
                                 <img src={setting} alt="github"></img>
                             </a>
                         </div>
@@ -92,6 +141,6 @@ export default function WorkItem({ WorksList_semester, worksName, worksSemester 
                     </div>
                 </div>
             </li>
-        ))
-    )
-}
+        )
+    }
+    

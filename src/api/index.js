@@ -8,6 +8,7 @@ export const getWorksList = async () => {
    try {
       const response = await axios.get(url);
       //console.log('response in api', response.data)
+      console.log("API Response:", response.data); //耕締新增
       return response.data;
    } catch (err) {
       console.log(err);
