@@ -44,12 +44,16 @@ export default function PageBanner({ school }) {
                     <li className="breadcrumb-item"><a href="#">Library</a></li>
                     <li className="breadcrumb-item active" ><a href="#">Data</a></li>
                 </ol>
-                <div className="breadcrumb2">
-                    <ol className="breadcrumb">
-                        <li className="breadcrumb-item"><a href="#">Home</a></li>
-                        <li className="breadcrumb-item"><a href="#">Library</a></li>
-                        <li className="breadcrumb-item active" ><a href="#">Data</a></li>
-                    </ol>
+                <div className="dropdown">
+                    <a className="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown link
+                    </a>
+
+                    <ul className="dropdown-menu">
+                        <li><a className="dropdown-item" href="#">Action</a></li>
+                        <li><a className="dropdown-item" href="#">Another action</a></li>
+                        <li><a className="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
                 </div>
             </div>
             <div className="container page-container">

@@ -26,7 +26,7 @@ function Nav({ school, semester }) {
         </li>
         <li>
           <NavLink
-            className={({ isActive }) => (isActive ? styles.a_active : styles.a_active_gray)}
+            className={({ isActive }) => (isActive ? styles.a_active_green : styles.a_active_gray)}
             to="/works/ntue/111-2"
           >
             {/* {[..."NTUE"].map((ele, idx) => (

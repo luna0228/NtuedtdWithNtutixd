@@ -64,6 +64,16 @@
     background-color: #FBFBFB;
   }
 
+  .nav .a_active_green {
+    height: 41px;
+    width: 75px;
+    border-radius: 57px;
+    z-index: 0;
+    color: #FFFFFF;
+    background-color: #ACD2BF
+    
+  }
+
   .a_active_box_orange {
     display: block;
     position: absolute;
