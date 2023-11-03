@@ -555,6 +555,12 @@
    }
  }
 
+ @media (min-width: 1400px) {
+   .container.page-container {
+     max-width: 1320px;
+   }
+ }
+
 
 
  @media(max-width:1440px) {
@@ -812,13 +818,27 @@
  }
 
  /*蓉*/
- .container-fluid a.navbar-brand {
-   padding-left: 69px;
-   color: #5F8575;
+ header {
+   backdrop-filter: blur(24px);
+   border-bottom: 1px solid rgba(172, 210, 191, 0.2);
  }
 
- .container nav.navbar {
-   background-color: #d2f5e6;
+ .container-fluid a.navbar-brand {
+   color: #5F8575;
+
+ }
+
+ .pageBanner .topBar {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-top: 20px;
+ }
+
+ .pageBanner .topBar {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
  }
 
  .pageBanner nav.breadcrumb {
@@ -831,29 +851,31 @@
  }
 
  .pageBanner ol.breadcrumb {
-   padding-left: 100px;
-   background-color: #d2f5e6;
+   padding-top: 10px;
+   /* background-color: #d2f5e6; */
+
  }
 
  .pageBanner a {
    color: #5F8575;
  }
 
- .pageBanner {
+ /* .pageBanner {
    background-color: #d2f5e6;
- }
+ } */
 
  .breadcrumb2 ol.breadcrumb {
    padding-right: 100px;
    background-color: #d2f5e6;
  }
- .dropdown a.btn{
-  height: 40px;
-  width: 170px;
-  margin-top: 60px;
-  margin-right: 100px;
-  color: #5F8575;
-  background-color: #d2f5e6;
+
+ .dropdown a.btn {
+   height: 35px;
+   width: 95px;
+   margin-top: 50px;
+   color: #5F8575;
+   /* background-color: #d2f5e6; */
+   font-size: 14px;
  }
 
 /* 以下是耕締，用在pagination的樣式，1102 */
@@ -867,11 +889,11 @@
   margin: 120px 0px 0px;
 }
 
-.customPagination .ant-pagination-item {
-  font-family: Noto Sans TC;
-  font-size: 14px;
-  background-color: transparent;              
-}
+ .customPagination .ant-pagination-item {
+   font-family: Noto Sans TC;
+   font-size: 14px;
+   background-color: transparent;
+ }
 
 .customPagination .ant-pagination-item:hover {
   background-color: #F5F5F5;
@@ -903,9 +925,9 @@
   }
 }
 
-/* 隱藏分頁控件在小屏幕下 */
-@media (max-width: 576px) {
-  .customPagination {
-    display: none;
-  }
-}
+ /* 隱藏分頁控件在小屏幕下 */
+ @media (max-width: 576px) {
+   .customPagination {
+     display: none;
+   }
+ }
