@@ -38,7 +38,7 @@ export default function PageBanner({ school }) {
             <div className="container">
                 <div className="topBar">
                     <ol className="breadcrumb">
-                        <li className="breadcrumb-item"><a href="/">Home</a></li>
+                        <li className="breadcrumb-item"><a href="/">HOME</a></li>
                         <li className="breadcrumb-item text-uppercase"><a href="#">{school}</a></li>
                         <li className="breadcrumb-item active" ><a href="#">112期末</a></li>
 
