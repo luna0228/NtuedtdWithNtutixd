@@ -1,7 +1,9 @@
 import notFoundImg from "../assets/404.png"
 import notFoundImgNtut from "../assets/cardimgNtut.png"
 import notFoundImgNtue from "../assets/cardimgNtue.png"
-import setting from "../assets/Setting.svg"
+// import setting from "../assets/Setting.svg"
+import githubIcon from "../assets/githubIcon.svg"
+import pptIcon from "../assets/pptIcon.svg"
 
 export default function WorkItem({ WorksListSemester, worksName, worksSemester }) {
 
@@ -129,10 +131,10 @@ export default function WorkItem({ WorksListSemester, worksName, worksSemester }
                     <div className="bottomContent">
                         <div className="workLink">
                             <a href={WorksListSemester.pptUrl} title="PPT">
-                                <img src={setting} alt="PPT"></img>
+                                <img src={pptIcon} alt="PPT"></img>
                             </a>
                             <a href={WorksListSemester.githubUrl} title="github">
-                                <img src={setting} alt="github"></img>
+                                <img src={githubIcon} alt="github"></img>
                             </a>
                         </div>
                         <div className="remark">

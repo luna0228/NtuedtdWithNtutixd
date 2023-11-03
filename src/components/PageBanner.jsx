@@ -1,7 +1,7 @@
-import bannerNtut from "../assets/PageBannerNtut.png"
-import bannerNtutSm from "../assets/PageBannerNtut-sm.png"
-import bannerNtue from "../assets/PageBannerNtue.png"
-import bannerNtueSm from "../assets/PageBannerNtue-sm.png"
+import bannerNtut from "../assets/PageBannerNtut2.png"
+import bannerNtutSm from "../assets/PageBannerNtut2-sm.png"
+import bannerNtue from "../assets/PageBannerNtue2.png"
+import bannerNtueSm from "../assets/PageBannerNtue2-sm.png"
 export default function PageBanner({ school }) {
     // 圖片banner
 
