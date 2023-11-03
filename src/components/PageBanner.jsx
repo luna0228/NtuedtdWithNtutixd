@@ -34,19 +34,19 @@ export default function PageBanner({ school }) {
     }
 
     return (
-        <div className="pageBanner ">
+        <div className="pageBanner">
             <div className="container">
                 <div className="topBar">
-                    <ol className="breadcrumb ">
-                        <li className="breadcrumb-item"><a href="#">Home</a></li>
-                        <li className="breadcrumb-item"><a href="#">Library</a></li>
-                        <li className="breadcrumb-item active" ><a href="#">Data</a></li>
+                    <ol className="breadcrumb">
+                        <li className="breadcrumb-item"><a href="/">Home</a></li>
+                        <li className="breadcrumb-item text-uppercase"><a href="#">{school}</a></li>
+                        <li className="breadcrumb-item active" ><a href="#">112期末</a></li>
 
                     </ol>
 
-                    <div className=" dropdown">
-                        <a className="btn dropdown-toggle text-wrap" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            進階搜尋
+                    <div className="dropdown">
+                        <a className="btn dropdown-toggle text-wrap" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+                            分類
                         </a>
                         <ul className="dropdown-menu">
                             <li><a className="dropdown-item" href="#">112期末</a></li>

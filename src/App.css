@@ -823,10 +823,15 @@
    border-bottom: 1px solid rgba(172, 210, 191, 0.2);
  }
 
- .container-fluid a.navbar-brand {
+ .page-ntue .container a.navbar-brand {
    color: #5F8575;
 
  }
+
+ .page-ntut .container a.navbar-brand {
+  color: #F2BF8C;
+
+}
 
  .pageBanner .topBar {
    display: flex;
@@ -841,13 +846,14 @@
    align-items: center;
  }
 
- .pageBanner nav.breadcrumb {
+ /* .pageBanner nav.breadcrumb {
    background-color: #d2f5e6;
- }
+ } */
 
- .pageBanner li.breadcrumb-item {
-   color: #5F8575;
+ .pageBanner .container .topBar ol.breadcrumb li.breadcrumb-item {
+   
    margin-top: 50px;
+  
  }
 
  .pageBanner ol.breadcrumb {
@@ -856,27 +862,55 @@
 
  }
 
- .pageBanner a {
+ .page-ntue .pageBanner a {
    color: #5F8575;
  }
+ .page-ntut .pageBanner a {
+  color: #F2BF8C;
+}
+
+.page-ntue .pageBanner a:hover {
+  color: #616161;
+}
+.page-ntut .pageBanner a:hover {
+  color: #616161;
+}
 
  /* .pageBanner {
    background-color: #d2f5e6;
  } */
 
- .breadcrumb2 ol.breadcrumb {
+ /* .breadcrumb2 ol.breadcrumb {
    padding-right: 100px;
    background-color: #d2f5e6;
- }
+ } */
 
- .dropdown a.btn {
+ .page-ntut .dropdown a.btn {
    height: 35px;
    width: 95px;
-   margin-top: 50px;
-   color: #5F8575;
+   margin-top: 45.5px;
+   color: #F2BF8C;
    /* background-color: #d2f5e6; */
    font-size: 14px;
  }
+
+ .page-ntue .dropdown a.btn {
+  height: 35px;
+  width: 95px;
+  margin-top: 45.5px;
+  color: #5F8575;
+  /* background-color: #d2f5e6; */
+  font-size: 14px;
+}
+
+.page-ntut .dropdown a.btn:hover {
+  background-color: transparent;
+  border-color: transparent;
+}
+.page-ntue .dropdown a.btn:hover {
+  background-color: transparent;
+  border-color: transparent;
+}
 
 /* 以下是耕締，用在pagination的樣式，1102 */
 .PaginationBox{

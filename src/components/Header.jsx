@@ -6,7 +6,7 @@ export default function Header({ school, semester }) {
         <header className="fixed-top ">
             <div className="container">
                 <nav className="navbar bg-opacity-50">
-                    <a className="navbar-brand " href="#">{school}</a>
+                    <a className="navbar-brand text-uppercase" href="#">{school}</a>
                     <Nav school={school} semester={semester} />
                     {/* <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
