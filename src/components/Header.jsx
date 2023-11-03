@@ -8,7 +8,7 @@ export default function Header({ school, semester }) {
                 <nav className="navbar fixed-top bg-opacity-50">
 
                     <div className="container-fluid">
-                        <a className="navbar-brand " href="#">NTUE-DTD</a>
+                        <a className="navbar-brand " href="#">{school}</a>
                         <Nav school={school} semester={semester} />
                         {/* <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>

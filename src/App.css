@@ -813,10 +813,13 @@
  .container-fluid a.navbar-brand {
    padding-left: 69px;
    color: #5F8575;
+   
  }
 
  .container nav.navbar {
-   background-color: #d2f5e6;
+   
+   backdrop-filter: blur(24px);
+    border-bottom: 1px solid rgba(172, 210, 191, 0.2);
  }
 
  .pageBanner nav.breadcrumb {
@@ -829,8 +832,10 @@
  }
 
  .pageBanner ol.breadcrumb {
-   padding-left: 100px;
+  padding-top: 10px;
+   padding-left: 92px;
    background-color: #d2f5e6;
+   
  }
 
  .pageBanner a {
@@ -846,12 +851,13 @@
    background-color: #d2f5e6;
  }
  .dropdown a.btn{
-  height: 40px;
-  width: 170px;
-  margin-top: 60px;
-  margin-right: 100px;
+  height: 35px;
+  width: 95px;
+  margin-top: 50px;
+  margin-left: 1000px;
   color: #5F8575;
   background-color: #d2f5e6;
+  font-size: 14px;
  }
 
 /* 以下是耕締，用在pagination的樣式，1102 */
