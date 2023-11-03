@@ -555,6 +555,12 @@
    }
  }
 
+ @media (min-width: 1400px) {
+   .container.page-container {
+     max-width: 1320px;
+   }
+ }
+
 
 
  @media(max-width:1440px) {
@@ -810,16 +816,26 @@
  }
 
  /*蓉*/
- .container-fluid a.navbar-brand {
-   padding-left: 69px;
-   color: #5F8575;
-   
+ header {
+   backdrop-filter: blur(24px);
+   border-bottom: 1px solid rgba(172, 210, 191, 0.2);
  }
 
- .container nav.navbar {
-   
-   backdrop-filter: blur(24px);
-    border-bottom: 1px solid rgba(172, 210, 191, 0.2);
+ .container-fluid a.navbar-brand {
+   color: #5F8575;
+
+ }
+
+ .pageBanner .topBar {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+
+ .pageBanner .topBar {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
  }
 
  .pageBanner nav.breadcrumb {
@@ -832,10 +848,9 @@
  }
 
  .pageBanner ol.breadcrumb {
-  padding-top: 10px;
-   padding-left: 92px;
+   padding-top: 10px;
    background-color: #d2f5e6;
-   
+
  }
 
  .pageBanner a {
@@ -850,46 +865,49 @@
    padding-right: 100px;
    background-color: #d2f5e6;
  }
- .dropdown a.btn{
-  height: 35px;
-  width: 95px;
-  margin-top: 50px;
-  margin-left: 1000px;
-  color: #5F8575;
-  background-color: #d2f5e6;
-  font-size: 14px;
+
+ .dropdown a.btn {
+   height: 35px;
+   width: 95px;
+   margin-top: 50px;
+   color: #5F8575;
+   background-color: #d2f5e6;
+   font-size: 14px;
  }
 
-/* 以下是耕締，用在pagination的樣式，1102 */
-.PaginationBox{
-  display: flex;
-  width: 100%;
-  padding: var(--G12px, 12px) var(--G80px, 80px);
-  justify-content: center;
-  align-items: center;
-  color: #434343;
-}
+ /* 以下是耕締，用在pagination的樣式，1102 */
+ .PaginationBox {
+   display: flex;
+   width: 100%;
+   padding: var(--G12px, 12px) var(--G80px, 80px);
+   justify-content: center;
+   align-items: center;
+   color: #434343;
+ }
 
-.customPagination .ant-pagination-item {
-  font-family: Noto Sans TC;
-  font-size: 14px;
-  background-color: transparent;              
-}
+ .customPagination .ant-pagination-item {
+   font-family: Noto Sans TC;
+   font-size: 14px;
+   background-color: transparent;
+ }
 
-.customPagination .ant-pagination-item:hover {
-  background-color: #F5F5F5;
-  border-color: #4CAF50;
-}
+ .customPagination .ant-pagination-item:hover {
+   background-color: #F5F5F5;
+   border-color: #4CAF50;
+ }
 
-.customPagination .ant-pagination-item-active {
-  background-color: #ffffff;    /* 更改激活状态的背景颜色 */
-  color: #1677FF;                 /* 更改激活状态的文字颜色 */
-  border-color: #1677FF;            /* 更改激活状态的边框颜色 */
-}
+ .customPagination .ant-pagination-item-active {
+   background-color: #ffffff;
+   /* 更改激活状态的背景颜色 */
+   color: #1677FF;
+   /* 更改激活状态的文字颜色 */
+   border-color: #1677FF;
+   /* 更改激活状态的边框颜色 */
+ }
 
-/* 隱藏分頁控件在小屏幕下 */
-@media (max-width: 576px) {
-  .customPagination {
-    display: none;
-  }
-}
+ /* 隱藏分頁控件在小屏幕下 */
+ @media (max-width: 576px) {
+   .customPagination {
+     display: none;
+   }
+ }
