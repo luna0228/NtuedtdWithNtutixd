@@ -19,7 +19,7 @@ function Works() {
                 <title>{school} 作品頁</title>
             </Helmet>
             <Header school={school} semester={semester}></Header>
-            <PageBanner school={school}></PageBanner>
+            <PageBanner school={school} semester={semester}></PageBanner>
             <main>
                 {/* 傳入worksName：ntut/ntue ; worksSemester：學期*/}
                 <PageTitle semester={semester}></PageTitle>

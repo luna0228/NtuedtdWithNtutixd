@@ -850,8 +850,14 @@
    background-color: #d2f5e6;
  } */
 
- .pageBanner .container .topBar ol.breadcrumb li.breadcrumb-item {
-   
+ .page-ntue .pageBanner .topBar  li.breadcrumb-item {
+  color: #5F8575;
+   margin-top: 50px;
+  
+ }
+
+ .page-ntut .pageBanner .topBar  li.breadcrumb-item {
+  color: #F2BF8C;
    margin-top: 50px;
   
  }
@@ -910,6 +916,10 @@
 .page-ntue .dropdown a.btn:hover {
   background-color: transparent;
   border-color: transparent;
+}
+
+.page-ntut .dropdown .dropdown-item{
+
 }
 
 /* 以下是耕締，用在pagination的樣式，1102 */

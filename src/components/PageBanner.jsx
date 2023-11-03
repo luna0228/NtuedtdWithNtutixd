@@ -2,7 +2,9 @@ import bannerNtut from "../assets/PageBannerNtut2.png"
 import bannerNtutSm from "../assets/PageBannerNtut2-sm.png"
 import bannerNtue from "../assets/PageBannerNtue2.png"
 import bannerNtueSm from "../assets/PageBannerNtue2-sm.png"
-export default function PageBanner({ school }) {
+export default function PageBanner({ school , semester }) {
+    
+    
     // 圖片banner
 
     const pageBannerPC = (ev) => {
@@ -39,8 +41,8 @@ export default function PageBanner({ school }) {
                 <div className="topBar">
                     <ol className="breadcrumb">
                         <li className="breadcrumb-item"><a href="/">HOME</a></li>
-                        <li className="breadcrumb-item text-uppercase"><a href="#">{school}</a></li>
-                        <li className="breadcrumb-item active" ><a href="#">112期末</a></li>
+                        <li className="breadcrumb-item text-uppercase">{school}</li>
+                        <li className="breadcrumb-item " >{semester}</li>
 
                     </ol>
 
@@ -49,10 +51,10 @@ export default function PageBanner({ school }) {
                             分類
                         </a>
                         <ul className="dropdown-menu">
-                            <li><a className="dropdown-item" href="#">112期末</a></li>
-                            <li><a className="dropdown-item" href="#">112期中</a></li>
-                            <li><a className="dropdown-item" href="#">111期末</a></li>
-                            <li><a className="dropdown-item" href="#">111期中</a></li>
+                            <li><a className="dropdown-item" href={`/works/${school}/112-2`}>112期末</a></li>
+                            <li><a className="dropdown-item" href={`/works/${school}/112-1`}>112期中</a></li>
+                            <li><a className="dropdown-item" href={`/works/${school}/111-2`}>111期末</a></li>
+                            <li><a className="dropdown-item" href={`/works/${school}/111-1`}>111期中</a></li>
                         </ul>
                     </div>
                 </div>
