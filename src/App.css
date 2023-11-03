@@ -830,6 +830,7 @@
    display: flex;
    justify-content: space-between;
    align-items: center;
+   padding-top: 20px;
  }
 
  .pageBanner .topBar {
@@ -849,7 +850,7 @@
 
  .pageBanner ol.breadcrumb {
    padding-top: 10px;
-   background-color: #d2f5e6;
+   /* background-color: #d2f5e6; */
 
  }
 
@@ -857,9 +858,9 @@
    color: #5F8575;
  }
 
- .pageBanner {
+ /* .pageBanner {
    background-color: #d2f5e6;
- }
+ } */
 
  .breadcrumb2 ol.breadcrumb {
    padding-right: 100px;
@@ -871,7 +872,7 @@
    width: 95px;
    margin-top: 50px;
    color: #5F8575;
-   background-color: #d2f5e6;
+   /* background-color: #d2f5e6; */
    font-size: 14px;
  }
 
