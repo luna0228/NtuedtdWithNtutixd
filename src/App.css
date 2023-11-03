@@ -662,6 +662,7 @@
    .worksList li.workItem .imgBox {
      height: 200px;
    }
+
  }
 
  @media(max-width:767px) {
@@ -801,6 +802,7 @@
    .workItem .bottomContent {
      padding: 12px;
    }
+
  }
 
  @media(max-width:480px) {
@@ -862,6 +864,7 @@
   justify-content: center;
   align-items: center;
   color: #434343;
+  margin: 120px 0px 0px;
 }
 
 .customPagination .ant-pagination-item {
@@ -872,13 +875,32 @@
 
 .customPagination .ant-pagination-item:hover {
   background-color: #F5F5F5;
-  border-color: #4CAF50;
 }
 
-.customPagination .ant-pagination-item-active {
-  background-color: #ffffff;    /* 更改激活状态的背景颜色 */
-  color: #1677FF;                 /* 更改激活状态的文字颜色 */
-  border-color: #1677FF;            /* 更改激活状态的边框颜色 */
+/* .customPagination .ant-pagination-item-active { */
+  /* background-color: #ffffff;    更改激活状态的背景颜色 */
+  /* color: #1677FF;                 更改激活状态的文字颜色 */
+  /* border-color: #1677FF;            更改激活状态的边框颜色 */
+/* } */
+
+.page-ntut .customPagination .ant-pagination-item-active {
+  color: #805437;                 /* 更改激活状态的文字颜色 */
+  border-radius: 12px;
+  border: 1px solid #F2BF8C;
+  background-color: #FFFAF0;
+}
+
+.page-ntue .customPagination .ant-pagination-item-active {
+  color: #5F8575;                 /* 更改激活状态的文字颜色 */
+  border-radius: 12px;
+  border: 1px solid #ACD2BF;
+  background-color: #F0FFF5;
+}
+
+@media (max-width: 1199px) {
+  .PaginationBox {
+    margin: 48px 0px 0px 0px;
+  }
 }
 
 /* 隱藏分頁控件在小屏幕下 */
