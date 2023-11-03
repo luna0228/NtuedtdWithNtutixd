@@ -51,10 +51,10 @@ export default function PageBanner({ school , semester }) {
                             分類
                         </a>
                         <ul className="dropdown-menu">
-                            <li><a className="dropdown-item" href={`/works/${school}/112-2`}>112期末</a></li>
-                            <li><a className="dropdown-item" href={`/works/${school}/112-1`}>112期中</a></li>
                             <li><a className="dropdown-item" href={`/works/${school}/111-2`}>111期末</a></li>
                             <li><a className="dropdown-item" href={`/works/${school}/111-1`}>111期中</a></li>
+                            <li><a className="dropdown-item" href={`/works/${school}/110-2`}>110期末</a></li>
+                            <li><a className="dropdown-item" href={`/works/${school}/110-1`}>110期中</a></li>
                         </ul>
                     </div>
                 </div>

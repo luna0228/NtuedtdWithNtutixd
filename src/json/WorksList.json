@@ -1,5 +1,332 @@
 {
     "ntue": {
+        "112-1": [
+            {
+                "workName": "小小沖繩行",
+                "githubUrl": "https://github.com/Charlie-Ma-1729/23Midterm",
+                "websiteUrl": "https://charlie-ma-1729.github.io/23Midterm/index.html",
+                "pptUrl": "https://docs.google.com/presentation/d/1heIHph3xG11k4jdY-yUuOcaToqhkMKedvueSE85w0VE/edit?usp=sharing",
+                "imgUrl": "https://github.com/Charlie-Ma-1729/23Midterm/blob/main/imgs/banner01.jpg",
+                "skill": [
+                    "HTML",
+                    "CSS",
+                    "JavaScript",
+                    "jQuery",
+                    "Boostrap"
+                ],
+                "name": [
+                    "馬子翔",
+                    "賴元均"
+                ]
+            },
+            {
+                "workName": "拾悅Shiyue咖啡廳",
+                "githubUrl": "https://github.com/s111119043/f2e-mid",
+                "websiteUrl": "https://s111119043.github.io/f2e-mid/",
+                "pptUrl": "https://www.canva.com/design/DAFzA88P5c0/RtC67NZgycTiBInqdH4x3Q/edit?utm_content=DAFzA88P5c0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+                "imgUrl": "https://drive.google.com/file/d/1vUubwTjDECZqvOLjPd1SjOConvey_p4C/view?usp=drivesdk",
+                "skill": [
+                    "HTML",
+                    "CSS",
+                    "JavaScript"
+                ],
+                "name": [
+                    "張書瑋",
+                    "吳采伃"
+                ]
+            },
+            {
+                "workName": "星穹鐵道:StarRail",
+                "githubUrl": "https://github.com/Sone0040201/StarRail",
+                "websiteUrl": "https://sone0040201.github.io/StarRail/",
+                "pptUrl": "https://www.canva.com/design/DAFzBsxq5B0/czMM-w5eEAUE1kIFTcN8BA/view?utm_content=DAFzBsxq5B0&utm_campaign=designshare&utm_medium=link&utm_source=editor",
+                "imgUrl": "",
+                "skill": [
+                    "HTML",
+                    "CSS",
+                    "JavaScript"
+                ],
+                "name": [
+                    "劉昀宥",
+                    "潘立森"
+                ]
+            },
+            {
+                "workName": "流浪動物偵探社 Stray Animal Detective Agency | XIN XIA",
+                "githubUrl": "https://github.com/xiaaaaaa/F2E_Front-End_Engineer_Design/tree/main/Stray%20Animal%20Detective%20Agency",
+                "websiteUrl": "https://xiaaaaaa.github.io/F2E_Front-End_Engineer_Design/Stray%20Animal%20Detective%20Agency/",
+                "pptUrl": "https://www.canva.com/design/DAFy4XVXSxg/A8jUnJanoaoreMIZUlSHSQ/view?utm_content=DAFy4XVXSxg&utm_campaign=designshare&utm_medium=link&utm_source=editor",
+                "imgUrl": "https://github.com/xiaaaaaa/F2E_Front-End_Engineer_Design/blob/main/Stray%20Animal%20Detective%20Agency/img/Frame%206.png",
+                "skill": [
+                    "HTML",
+                    "CSS",
+                    "JavaScript",
+                    "Jquery"
+                ],
+                "name": [
+                    "楊心宇",
+                    "洪惠黠"
+                ]
+            },
+            {
+                "workName": "10969 FANPAGE",
+                "githubUrl": "https://github.com/yuqix111119031/f2e?search=1",
+                "websiteUrl": "https://yuqix111119031.github.io/f2e/",
+                "pptUrl": "https://www.canva.com/design/DAFy42CWCZA/XSLtMEpjjOSQG0Ns1eDuoA/edit?utm_content=DAFy42CWCZA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+                "imgUrl": "https://drive.google.com/file/d/1ZmQcA2iXX_iZmluRCmJuySnxX5TUDDhy/view?usp=sharing",
+                "skill": [
+                    "HTML",
+                    "CSS"
+                ],
+                "name": [
+                    "陳亭宇",
+                    "翁子晴"
+                ]
+            },
+            {
+                "workName": "Benjamin Graham’s Portfolio Website",
+                "githubUrl": "https://github.com/yahan613/Mintern_project/tree/master",
+                "websiteUrl": "https://yahan613.github.io/Mintern_project/",
+                "pptUrl": "https://docs.google.com/presentation/d/1SzpS_5lErgBv6E3OgTFZv67vsTSul-nbH8M64-GCuw0/edit?usp=sharing",
+                "imgUrl": "https://drive.google.com/file/d/1QpzzxipP_1EPsPqOzZtILrIqcN1Oyj8o/view?usp=sharing",
+                "skill": [
+                    "HTML",
+                    "CSS",
+                    "JavaScript"
+                ],
+                "name": [
+                    "許雅涵",
+                    "王雨晴"
+                ]
+            },
+            {
+                "workName": "韋恩音樂 Wayne Music",
+                "githubUrl": "https://github.com/Joanne0119/music-player",
+                "websiteUrl": "https://joanne0119.github.io/music-player/",
+                "pptUrl": "https://www.canva.com/design/DAFynid3PHs/EgS9KsDT-emCXALVKEoziQ/view?utm_content=DAFynid3PHs&utm_campaign=designshare&utm_medium=link&utm_source=editor",
+                "imgUrl": "![](https://imgur.com/4ReuVMA.png)",
+                "skill": [
+                    "HTML",
+                    "CSS",
+                    "JavaScript",
+                    "Bootstrap",
+                    "RWD",
+                    "Web APIs"
+                ],
+                "name": [
+                    "許昀韋",
+                    "劉丞恩"
+                ]
+            },
+            {
+                "workName": "遊戲網頁實作—微塵童話",
+                "githubUrl": "https://github.com/hugetuna/F2E-mid",
+                "websiteUrl": "https://hugetuna.github.io/F2E-mid/",
+                "pptUrl": "https://www.canva.com/design/DAFy0I_6yg8/1f5mTaVr1tr5SQ7gyX166A/view?utm_content=DAFy0I_6yg8&utm_campaign=designshare&utm_medium=link&utm_source=editor",
+                "imgUrl": "",
+                "skill": [
+                    "HTML",
+                    "CSS",
+                    "JavaScript"
+                ],
+                "name": [
+                    "郭家豪",
+                    "許文慶"
+                ]
+            },
+            {
+                "workName": "個人網頁",
+                "githubUrl": "https://github.com/GLMrps/Midterm",
+                "websiteUrl": "https://glmrps.github.io/Midterm/",
+                "pptUrl": "https://www.canva.com/design/DAFy5stn_Do/TxlBaRBatcmPpthG1ACQqA/view?utm_content=DAFy5stn_Do&utm_campaign=designshare&utm_medium=link&utm_source=editor",
+                "imgUrl": "",
+                "skill": [
+                    "HTML",
+                    "CSS"
+                ],
+                "name": [
+                    "許瑞平",
+                    "江秉宸"
+                ]
+            },
+            {
+                "workName": "怪獸追緝局",
+                "githubUrl": "https://github.com/st-56/midterm-monsterspursuit.git",
+                "websiteUrl": "https://st-56.github.io/midterm-monsterspursuit/home",
+                "pptUrl": "https://www.canva.com/design/DAFzAXnzbv4/igP_0moasyIDv9ZEQ4_sFg/edit?utm_content=DAFzAXnzbv4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+                "imgUrl": "https://github.com/st-56/midterm-monsterspursuit/blob/main/img/picture.JPG",
+                "skill": [
+                    "HTML",
+                    "CSS",
+                    "JavaScript"
+                ],
+                "name": [
+                    "黃紹婷",
+                    "蔡佳軒"
+                ]
+            },
+            {
+                "workName": "好想吃早餐啊！！！",
+                "githubUrl": "https://github.com/AMA0099112/html-css-js",
+                "websiteUrl": "https://ama0099112.github.io/html-css-js/",
+                "pptUrl": "https://www.canva.com/design/DAFy5XI9shw/DJGjF-ex26ziaUn3ATeM8Q/edit?utm_content=DAFy5XI9shw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+                "imgUrl": "https://github.com/AMA0099112/html-css-js/blob/main/img/title.PNG",
+                "skill": [
+                    "HTML",
+                    "CSS",
+                    "JJavaScript",
+                    "JQuery"
+                ],
+                "name": [
+                    "翁靖瑜",
+                    "陳怡蒨"
+                ]
+            },
+            {
+                "workName": "FLOWERPOWER",
+                "githubUrl": "https://github.com/emba2ra3star/F2E_Flower-Power_git",
+                "websiteUrl": "https://emba2ra3star.github.io/F2E_Flower-Power_git/",
+                "pptUrl": "https://www.canva.com/design/DAFy-lIPfjs/fue3FHDjLymlgsaZCnKZUw/edit?utm_content=DAFy-lIPfjs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+                "imgUrl": "",
+                "skill": [
+                    "HTML",
+                    "CSS",
+                    "JavaScript",
+                    "jQuery"
+                ],
+                "name": [
+                    "陳嘉馨",
+                    "金蔓均"
+                ]
+            },
+            {
+                "workName": "迷咪貓ㄇㄠˋ",
+                "githubUrl": "https://github.com/annvi23/annvi23.github.io/tree/17c3a6fa5fbee2764b33eb02d73463b11a83063a/F2E-midterm",
+                "websiteUrl": "https://annvi23.github.io/F2E-midterm/",
+                "pptUrl": "https://www.canva.com/design/DAFzBuxmv_A/VraM49WkOjNqVK8Bae9y6w/edit?utm_content=DAFzBuxmv_A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+                "imgUrl": "https://github.com/annvi23/annvi23.github.io/blob/17c3a6fa5fbee2764b33eb02d73463b11a83063a/F2E-midterm/images/logo.jpg",
+                "skill": [
+                    "HTML",
+                    "CSS",
+                    "JavaScript"
+                ],
+                "name": [
+                    "詹凱雯",
+                    "尤少盟"
+                ]
+            },
+            {
+                "workName": "平安夜茶話會",
+                "githubUrl": "https://github.com/Nomura369/MentalTest",
+                "websiteUrl": "https://nomura369.github.io/MentalTest/",
+                "pptUrl": "https://www.canva.com/design/DAFy7LhQpjI/7sTe2-4o3EX2bT4z_qCO7w/edit?utm_content=DAFy7LhQpjI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+                "imgUrl": "https://drive.google.com/file/d/1OW1IRov0FmIWlAkgDdpTXGmsezLMp7I1/view?usp=sharing",
+                "skill": [
+                    "HTML",
+                    "CSS",
+                    "JavaScript",
+                    "jQuery"
+                ],
+                "name": [
+                    "楊佳穎",
+                    "黃佳惠"
+                ]
+            },
+            {
+                "workName": "WOOD木工工作室",
+                "githubUrl": "https://github.com/GinaKuo/f2e_midterm.git",
+                "websiteUrl": "https://ginakuo.github.io/f2e_midterm/index.html",
+                "pptUrl": "https://www.canva.com/design/DAFzCH4p68w/D9mNj70PTP345jTeKIqjSg/view?utm_content=DAFzCH4p68w&utm_campaign=designshare&utm_medium=link&utm_source=editor",
+                "imgUrl": "",
+                "skill": [
+                    "HTML",
+                    "CSS"
+                ],
+                "name": [
+                    "郭奕涵",
+                    "孫凱筠"
+                ]
+            },
+            {
+                "workName": "JOINWHERE",
+                "githubUrl": "https://github.com/zhlhu322/zhlhu322.github.io/tree/main/midterm",
+                "websiteUrl": "https://zhlhu322.github.io/midterm/homepage.html",
+                "pptUrl": "https://www.canva.com/design/DAFyu3McaXU/CdmdElPm2Cb5ito1fH89wg/view?utm_content=DAFyu3McaXU&utm_campaign=designshare&utm_medium=link&utm_source=editor",
+                "imgUrl": "https://s3-alpha-sig.figma.com/img/819b/b672/e9393179efd2c66563d8a89b170fc1a2?Expires=1699833600&Signature=ojiCC1CSJE3my3HapMKMOkjyEvTMD1CHAIGEeeN6tueY7-A~zyFY3zg8h-9jArHfjp9WpK46FlsMt3HAWA6nIgZ-f11ym9ZHow3bdR4jnDwJqE08y3WUxJsUDqIGieDJ9A5F7eTimWEZzNy1mWlUaItLxIf9dOKdf3pWENDa5RuslGmpqoy1-0t9g057g36prpKXkYdBd8U6aVMXrJi3wa6jTdZfM0euQ0-D~TZkBAwQjWHEyIPBLdZFyHRWNZm9RDDOJBw3Px8PIsihbfI8TGGrvfqWlen5t1QwNG9LqmM2YFw5JUtOf74irEPM8EZqJdwAmoM5~ziz97nCIPFdUg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+                "skill": [
+                    "html",
+                    "css",
+                    "javaScript"
+                ],
+                "name": [
+                    "黃姿云",
+                    "李恩亞"
+                ]
+            },
+            {
+                "workName": "HUPPY",
+                "githubUrl": "sunnywang930410/HUPPY-web (github.com)",
+                "websiteUrl": "https://sunnywang930410.github.io/HUPPY-web/",
+                "pptUrl": "https://www.canva.com/design/DAFy59YNzBI/Xin_funNERPUVRZUrk3i8g/view?utm_content=DAFy59YNzBI&utm_campaign=designshare&utm_medium=link&utm_source=editor",
+                "imgUrl": "",
+                "skill": [
+                    "HTML",
+                    "CSS"
+                ],
+                "name": [
+                    "王昱晴",
+                    "陳品伃"
+                ]
+            },
+            {
+                "workName": "Free Styling Tips",
+                "githubUrl": "https://github.com/hcw6678/midterm",
+                "websiteUrl": "https://hcw6678.github.io/midterm/",
+                "pptUrl": "https://docs.google.com/presentation/d/1krsiah95jDBBNjkNP94tcQtNc5RnxKufgYehfaDkcLI/edit?usp=sharing",
+                "imgUrl": "https://drive.google.com/file/d/1tpmTnqIbBrtRtZC227H9jZrxC9BpLZGk/view?usp=drive_link",
+                "skill": [
+                    "HTML",
+                    "CSS"
+                ],
+                "name": [
+                    "邢宸瑋",
+                    "林士冕"
+                ]
+            },
+            {
+                "workName": "Lady M",
+                "githubUrl": "https://github.com/SCARLETTLANYUXUAN/LadyM",
+                "websiteUrl": "https://scarlettlanyuxuan.github.io/LadyM/",
+                "pptUrl": "https://docs.google.com/presentation/d/1RYHvVFz9wPtix45uXxLVWRlLos862EaPaHUBZ7cOvI4/edit?usp=sharing",
+                "imgUrl": "https://1.bp.blogspot.com/-kh3D-Z99w8U/YKJnn2AOx4I/AAAAAAAA47Y/Jl74CTdsIXkrBfSJz3Rx1_2mHB4cFHFOACPcBGAsYHg/s1600/LadyM%2B%25284%2529.jpg",
+                "skill": [
+                    "html",
+                    "css",
+                    "bootstrap"
+                ],
+                "name": [
+                    "鄧薇",
+                    "白湧樂"
+                ]
+            },
+            {
+                "workName": "「自己做-烘焙俱樂部」Redesign",
+                "githubUrl": "https://github.com/Abigail1103/Frontend-midterm",
+                "websiteUrl": "https://abigail1103.github.io/Frontend-midterm/",
+                "pptUrl": "https://www.canva.com/design/DAFzAloqmMs/rVHVtGHtXPq92pV5h5ayiw/view?utm_content=DAFzAloqmMs&utm_campaign=designshare&utm_medium=link&utm_source=editor",
+                "imgUrl": "https://github.com/Abigail1103/Frontend-midterm/blob/main/img/%E5%B0%81%E9%9D%A2%E9%A6%96%E5%9C%96.jpg",
+                "skill": [
+                    "html",
+                    "css",
+                    "js",
+                    "jquery"
+                ],
+                "name": [
+                    "林詩雅",
+                    "白陽"
+                ]
+            }
+        ],
         "111-2": [
             {
                 "workName": "gamewiki extend",

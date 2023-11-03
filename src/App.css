@@ -918,8 +918,11 @@
   border-color: transparent;
 }
 
-.page-ntut .dropdown .dropdown-item{
-
+/* 1104修改，強制更動booststrap樣式 */
+.page-ntut .dropdown-menu,
+.page-ntue .dropdown-menu {
+  right: 0 !important;       /* 讓菜單的右側貼齊父元素 */
+  left: auto !important;     /* 重設左側的位置，避免覆蓋到 right 的設置 */
 }
 
 /* 以下是耕締，用在pagination的樣式，1102 */
