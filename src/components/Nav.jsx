@@ -8,8 +8,8 @@ function Nav({ school, semester }) {
         <div
           className={styles.a_active_box}
           style={school == "ntue" ? { right: "3px" } : { left: "3px" } || school == "ntut" ? { left: "3px" } : { right: "3px" }}
-        ></div>
-
+        >
+        </div>
 
         <li>
           <NavLink

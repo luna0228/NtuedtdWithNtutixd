@@ -45,7 +45,7 @@
 
 .nav .a_active {
   height: 41px;
-  width: 75px;
+  width: auto;
   border-radius: 57px;
   z-index: 0;
   color: #FFFFFF;
