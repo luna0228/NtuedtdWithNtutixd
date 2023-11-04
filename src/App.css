@@ -357,8 +357,18 @@
    transform: translateY(-50%);
  }
 
+ .page-ntut .pageTitle::before,
+ .page-ntut .pageTitle::after {
+   background-color: #F4E4D1;
+ }
+
+
 
  /*works*/
+ .worksListBox {
+   padding-bottom: 60px;
+ }
+
  .worksListBox ul.worksList {
    display: flex;
    flex-wrap: wrap;
@@ -376,6 +386,9 @@
    border-radius: 20px;
    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
    background-color: #fff;
+   height: 100%;
+   position: relative;
+   padding-bottom: 65px;
  }
 
  .worksList li.workItem .workItemInner>a {
@@ -485,6 +498,9 @@
    justify-content: space-between;
    align-items: center;
    padding: 20px;
+   position: absolute;
+   bottom: 0;
+   width: 100%;
  }
 
  .workItem .bottomContent .workLink {
@@ -526,8 +542,141 @@
  }
 
 
+ /*蓉*/
+ header {
+   backdrop-filter: blur(24px);
+   border-bottom: 1px solid rgba(172, 210, 191, 0.2);
+ }
+
+ .page-ntue .container a.navbar-brand {
+   color: #5F8575;
+
+ }
+
+ .page-ntut .container a.navbar-brand {
+   color: #F2BF8C;
+
+ }
+
+ .pageBanner .topBar {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-top: 20px;
+ }
+
+ .pageBanner .topBar {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+
+ .page-ntue .pageBanner .topBar li.breadcrumb-item {
+   color: #5F8575;
+   margin-top: 50px;
+
+ }
+
+ .page-ntut .pageBanner .topBar li.breadcrumb-item {
+   color: #F2BF8C;
+   margin-top: 50px;
+
+ }
+
+ .pageBanner ol.breadcrumb {
+   padding-top: 10px;
+
+ }
+
+ .page-ntue .pageBanner a {
+   color: #5F8575;
+ }
+
+ .page-ntut .pageBanner a {
+   color: #F2BF8C;
+ }
+
+ .page-ntue .pageBanner a:hover {
+   color: #616161;
+ }
+
+ .page-ntut .pageBanner a:hover {
+   color: #616161;
+ }
+
+ .page-ntut .dropdown a.btn {
+   height: 35px;
+   width: 95px;
+   margin-top: 45.5px;
+   color: #F2BF8C;
+   font-size: 14px;
+ }
+
+ .page-ntue .dropdown a.btn {
+   height: 35px;
+   width: 95px;
+   margin-top: 45.5px;
+   color: #5F8575;
+   font-size: 14px;
+ }
+
+ .page-ntut .dropdown a.btn:hover {
+   background-color: transparent;
+   border-color: transparent;
+ }
+
+ .page-ntue .dropdown a.btn:hover {
+   background-color: transparent;
+   border-color: transparent;
+ }
+
+ /* 1104修改，強制更動booststrap樣式 */
+ .page-ntut .dropdown-menu,
+ .page-ntue .dropdown-menu {
+   right: 0 !important;
+   /* 讓菜單的右側貼齊父元素 */
+   left: auto !important;
+   /* 重設左側的位置，避免覆蓋到 right 的設置 */
+ }
 
 
+ /* 以下是耕締，用在pagination的樣式，1102 */
+ .PaginationBox {
+   display: flex;
+   width: 100%;
+   padding: var(--G12px, 12px) var(--G80px, 80px);
+   justify-content: center;
+   align-items: center;
+   color: #434343;
+   margin: 120px 0px 0px;
+ }
+
+ .customPagination .ant-pagination-item {
+   font-family: Noto Sans TC;
+   font-size: 14px;
+   background-color: transparent;
+ }
+
+ .customPagination .ant-pagination-item:hover {
+   background-color: #F5F5F5;
+ }
+
+
+ .page-ntut .customPagination .ant-pagination-item-active {
+   color: #805437;
+   /* 更改激活状态的文字颜色 */
+   border-radius: 12px;
+   border: 1px solid #F2BF8C;
+   background-color: #FFFAF0;
+ }
+
+ .page-ntue .customPagination .ant-pagination-item-active {
+   color: #5F8575;
+   /* 更改激活状态的文字颜色 */
+   border-radius: 12px;
+   border: 1px solid #ACD2BF;
+   background-color: #F0FFF5;
+ }
 
 
  /*RWD*/
@@ -622,6 +771,10 @@
  @media(max-width:1199px) {
    .worksList li.workItem .imgBox {
      height: 180px;
+   }
+
+   .PaginationBox {
+     margin: 48px 0px 0px 0px;
    }
  }
 
@@ -811,170 +964,15 @@
 
  }
 
- @media(max-width:480px) {
-   .worksList li.workItem .imgBox {
-     height: 220px;
-   }
- }
-
- /*蓉*/
- header {
-   backdrop-filter: blur(24px);
-   border-bottom: 1px solid rgba(172, 210, 191, 0.2);
- }
-
- .page-ntue .container a.navbar-brand {
-   color: #5F8575;
-
- }
-
- .page-ntut .container a.navbar-brand {
-  color: #F2BF8C;
-
-}
-
- .pageBanner .topBar {
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   padding-top: 20px;
- }
-
- .pageBanner .topBar {
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
- }
-
- /* .pageBanner nav.breadcrumb {
-   background-color: #d2f5e6;
- } */
-
- .page-ntue .pageBanner .topBar  li.breadcrumb-item {
-  color: #5F8575;
-   margin-top: 50px;
-  
- }
-
- .page-ntut .pageBanner .topBar  li.breadcrumb-item {
-  color: #F2BF8C;
-   margin-top: 50px;
-  
- }
-
- .pageBanner ol.breadcrumb {
-   padding-top: 10px;
-   /* background-color: #d2f5e6; */
-
- }
-
- .page-ntue .pageBanner a {
-   color: #5F8575;
- }
- .page-ntut .pageBanner a {
-  color: #F2BF8C;
-}
-
-.page-ntue .pageBanner a:hover {
-  color: #616161;
-}
-.page-ntut .pageBanner a:hover {
-  color: #616161;
-}
-
- /* .pageBanner {
-   background-color: #d2f5e6;
- } */
-
- /* .breadcrumb2 ol.breadcrumb {
-   padding-right: 100px;
-   background-color: #d2f5e6;
- } */
-
- .page-ntut .dropdown a.btn {
-   height: 35px;
-   width: 95px;
-   margin-top: 45.5px;
-   color: #F2BF8C;
-   /* background-color: #d2f5e6; */
-   font-size: 14px;
- }
-
- .page-ntue .dropdown a.btn {
-  height: 35px;
-  width: 95px;
-  margin-top: 45.5px;
-  color: #5F8575;
-  /* background-color: #d2f5e6; */
-  font-size: 14px;
-}
-
-.page-ntut .dropdown a.btn:hover {
-  background-color: transparent;
-  border-color: transparent;
-}
-.page-ntue .dropdown a.btn:hover {
-  background-color: transparent;
-  border-color: transparent;
-}
-
-/* 1104修改，強制更動booststrap樣式 */
-.page-ntut .dropdown-menu,
-.page-ntue .dropdown-menu {
-  right: 0 !important;       /* 讓菜單的右側貼齊父元素 */
-  left: auto !important;     /* 重設左側的位置，避免覆蓋到 right 的設置 */
-}
-
-/* 以下是耕締，用在pagination的樣式，1102 */
-.PaginationBox{
-  display: flex;
-  width: 100%;
-  padding: var(--G12px, 12px) var(--G80px, 80px);
-  justify-content: center;
-  align-items: center;
-  color: #434343;
-  margin: 120px 0px 0px;
-}
-
- .customPagination .ant-pagination-item {
-   font-family: Noto Sans TC;
-   font-size: 14px;
-   background-color: transparent;
- }
-
-.customPagination .ant-pagination-item:hover {
-  background-color: #F5F5F5;
-}
-
-/* .customPagination .ant-pagination-item-active { */
-  /* background-color: #ffffff;    更改激活状态的背景颜色 */
-  /* color: #1677FF;                 更改激活状态的文字颜色 */
-  /* border-color: #1677FF;            更改激活状态的边框颜色 */
-/* } */
-
-.page-ntut .customPagination .ant-pagination-item-active {
-  color: #805437;                 /* 更改激活状态的文字颜色 */
-  border-radius: 12px;
-  border: 1px solid #F2BF8C;
-  background-color: #FFFAF0;
-}
-
-.page-ntue .customPagination .ant-pagination-item-active {
-  color: #5F8575;                 /* 更改激活状态的文字颜色 */
-  border-radius: 12px;
-  border: 1px solid #ACD2BF;
-  background-color: #F0FFF5;
-}
-
-@media (max-width: 1199px) {
-  .PaginationBox {
-    margin: 48px 0px 0px 0px;
-  }
-}
-
  /* 隱藏分頁控件在小屏幕下 */
  @media (max-width: 576px) {
    .customPagination {
      display: none;
+   }
+ }
+
+ @media(max-width:480px) {
+   .worksList li.workItem .imgBox {
+     height: 220px;
    }
  }

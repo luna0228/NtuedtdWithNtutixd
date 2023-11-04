@@ -21,7 +21,7 @@ function Works() {
             <Header school={school} semester={semester}></Header>
             <PageBanner school={school} semester={semester}></PageBanner>
             <main>
-                {/* 傳入worksName：ntut/ntue ; worksSemester：學期*/}
+                {/* 傳入school：ntut/ntue ; semester：學期*/}
                 <PageTitle semester={semester}></PageTitle>
                 <WorksList school={school} semester={semester}></WorksList>
             </main>

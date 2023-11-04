@@ -2,6 +2,17 @@
     "ntue": {
         "112-1": [
             {
+                "workName": "",
+                "githubUrl": "",
+                "websiteUrl": "",
+                "pptUrl": "",
+                "imgUrl": "",
+                "skill": [
+                    ""
+                ],
+                "name": []
+            },
+            {
                 "workName": "小小沖繩行",
                 "githubUrl": "https://github.com/Charlie-Ma-1729/23Midterm",
                 "websiteUrl": "https://charlie-ma-1729.github.io/23Midterm/index.html",
@@ -40,7 +51,7 @@
                 "githubUrl": "https://github.com/Sone0040201/StarRail",
                 "websiteUrl": "https://sone0040201.github.io/StarRail/",
                 "pptUrl": "https://www.canva.com/design/DAFzBsxq5B0/czMM-w5eEAUE1kIFTcN8BA/view?utm_content=DAFzBsxq5B0&utm_campaign=designshare&utm_medium=link&utm_source=editor",
-                "imgUrl": "",
+                "imgUrl": "![](https://imgur.com/5jyti49.png)",
                 "skill": [
                     "HTML",
                     "CSS",
@@ -88,7 +99,7 @@
                 "githubUrl": "https://github.com/yahan613/Mintern_project/tree/master",
                 "websiteUrl": "https://yahan613.github.io/Mintern_project/",
                 "pptUrl": "https://docs.google.com/presentation/d/1SzpS_5lErgBv6E3OgTFZv67vsTSul-nbH8M64-GCuw0/edit?usp=sharing",
-                "imgUrl": "https://drive.google.com/file/d/1QpzzxipP_1EPsPqOzZtILrIqcN1Oyj8o/view?usp=sharing",
+                "imgUrl": "https://imgur.com/5zJ8lcT",
                 "skill": [
                     "HTML",
                     "CSS",
@@ -332,7 +343,7 @@
                 "workName": "gamewiki extend",
                 "githubUrl": "https://github.com/Scott911228/gamewiki.git",
                 "websiteUrl": "https://scott911228.github.io/gamewiki/",
-                "pptUrl": "https://docs.google.com/presentation/d/1yTKJns2EAlezQKq14md0IxFeOP4U6CAxLB0BwVIz5Aw/edit?usp=sharing",
+                "pptUrl": "gamewiki-extended",
                 "imgUrl": "https://drive.google.com/file/d/1ls4TF7t6sIkKqwGZ2jYjZ9QY8RskZAi4/view?usp=sharing",
                 "skill": [
                     "html",
@@ -1749,6 +1760,228 @@
         ]
     },
     "ntut": {
+        "112-1": [
+            {
+                "workName": "",
+                "githubUrl": "",
+                "websiteUrl": "",
+                "pptUrl": "",
+                "imgUrl": "",
+                "skill": [
+                    ""
+                ],
+                "name": []
+            },
+            {
+                "workName": "",
+                "githubUrl": "",
+                "websiteUrl": "",
+                "pptUrl": "",
+                "imgUrl": "",
+                "skill": [
+                    ""
+                ],
+                "name": []
+            },
+            {
+                "workName": "",
+                "githubUrl": "",
+                "websiteUrl": "",
+                "pptUrl": "",
+                "imgUrl": "",
+                "skill": [
+                    ""
+                ],
+                "name": []
+            },
+            {
+                "workName": "",
+                "githubUrl": "",
+                "websiteUrl": "",
+                "pptUrl": "",
+                "imgUrl": "",
+                "skill": [
+                    ""
+                ],
+                "name": []
+            },
+            {
+                "workName": "",
+                "githubUrl": "",
+                "websiteUrl": "",
+                "pptUrl": "",
+                "imgUrl": "",
+                "skill": [
+                    ""
+                ],
+                "name": []
+            },
+            {
+                "workName": "",
+                "githubUrl": "",
+                "websiteUrl": "",
+                "pptUrl": "",
+                "imgUrl": "",
+                "skill": [
+                    ""
+                ],
+                "name": []
+            },
+            {
+                "workName": "",
+                "githubUrl": "",
+                "websiteUrl": "",
+                "pptUrl": "",
+                "imgUrl": "",
+                "skill": [
+                    ""
+                ],
+                "name": []
+            },
+            {
+                "workName": "",
+                "githubUrl": "",
+                "websiteUrl": "",
+                "pptUrl": "",
+                "imgUrl": "",
+                "skill": [
+                    ""
+                ],
+                "name": []
+            },
+            {
+                "workName": "",
+                "githubUrl": "",
+                "websiteUrl": "",
+                "pptUrl": "",
+                "imgUrl": "",
+                "skill": [
+                    ""
+                ],
+                "name": []
+            },
+            {
+                "workName": "",
+                "githubUrl": "",
+                "websiteUrl": "",
+                "pptUrl": "",
+                "imgUrl": "",
+                "skill": [
+                    ""
+                ],
+                "name": []
+            },
+            {
+                "workName": "",
+                "githubUrl": "",
+                "websiteUrl": "",
+                "pptUrl": "",
+                "imgUrl": "",
+                "skill": [
+                    ""
+                ],
+                "name": []
+            },
+            {
+                "workName": "",
+                "githubUrl": "",
+                "websiteUrl": "",
+                "pptUrl": "",
+                "imgUrl": "",
+                "skill": [
+                    ""
+                ],
+                "name": []
+            },
+            {
+                "workName": "",
+                "githubUrl": "",
+                "websiteUrl": "",
+                "pptUrl": "",
+                "imgUrl": "",
+                "skill": [
+                    ""
+                ],
+                "name": []
+            },
+            {
+                "workName": "",
+                "githubUrl": "",
+                "websiteUrl": "",
+                "pptUrl": "",
+                "imgUrl": "",
+                "skill": [
+                    ""
+                ],
+                "name": []
+            },
+            {
+                "workName": "",
+                "githubUrl": "",
+                "websiteUrl": "",
+                "pptUrl": "",
+                "imgUrl": "",
+                "skill": [
+                    ""
+                ],
+                "name": []
+            },
+            {
+                "workName": "",
+                "githubUrl": "",
+                "websiteUrl": "",
+                "pptUrl": "",
+                "imgUrl": "",
+                "skill": [
+                    ""
+                ],
+                "name": []
+            },
+            {
+                "workName": "",
+                "githubUrl": "",
+                "websiteUrl": "",
+                "pptUrl": "",
+                "imgUrl": "",
+                "skill": [
+                    ""
+                ],
+                "name": []
+            },
+            {
+                "workName": "",
+                "githubUrl": "",
+                "websiteUrl": "",
+                "pptUrl": "",
+                "imgUrl": "",
+                "skill": [
+                    ""
+                ],
+                "name": []
+            },
+            {
+                "workName": "",
+                "githubUrl": "",
+                "websiteUrl": "",
+                "pptUrl": "",
+                "imgUrl": "",
+                "skill": [
+                    ""
+                ],
+                "name": []
+            },
+            {
+                "workName": "",
+                "githubUrl": "",
+                "websiteUrl": "",
+                "pptUrl": "",
+                "imgUrl": "",
+                "skill": [
+                    ""
+                ],
+                "name": []
+            }
+        ],
         "111-2": [
             {
                 "workName": "失落異識城",
