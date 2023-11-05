@@ -2223,7 +2223,10 @@
                 "pptUrl": "https://docs.google.com/presentation/d/19jSwbixgDjE9SMtAmxws80M-lblWYB-Z/edit?usp=sharing&ouid=115297772706558657995&rtpof=true&sd=true",
                 "imgUrl": "https://imgur.com/oNx8wzv.png",
                 "skill": [
-                    "HTML、CSS、JS、Jquery"
+                    "HTML",
+                    "CSS",
+                    "JS",
+                    "Jquery"
                 ],
                 "name": [
                     "葉思佑",
@@ -2315,7 +2318,10 @@
                 "pptUrl": "https://drive.google.com/file/d/111qCloGjyWE10gO6VkoiUdi4ypubiY0E/view?usp=sharing",
                 "imgUrl": "https://i.imgur.com/Kf9Cion.png",
                 "skill": [
-                    "HTML、CSS、JQuery、Git"
+                    "HTML",
+                    "CSS",
+                    "JQuery",
+                    "Git"
                 ],
                 "name": [
                     "林均儕",
