@@ -1,4 +1,4 @@
-import { useState,useEffect } from "react";
+import { useState, useEffect } from "react";
 import WorkItem from "./WorkItem";
 import Pagination from "./Pagination";
 import WorksListJson from "../json/WorksList.json"
@@ -38,24 +38,22 @@ export default function WorksList({ school, semester }) {
         getWorksListData(); //創建好後直接宣告
     }, []); 
 
-    console.log("Current WorksList:", WorksList);
-    console.log(school + "," + semester);
-    console.log("Current Works:", currentWorks);
-    console.log("Total Works:", totalWorks);
-    console.log("Total Pages:", totalPages);
+    // console.log("Current WorksList:", WorksList);
+    // console.log(school + "," + semester);
+    // console.log("Current Works:", currentWorks);
+    // console.log("Total Works:", totalWorks);
+    // console.log("Total Pages:", totalPages);
 
     return (
         <div className="worksListBox">
             <div className="container">
                 <ul className="worksList">
-                    {/* component 傳入json 、代入的學期*/}
-                    {/*雨婷原先 <WorkItem WorksList_semester={WorksList[`${school}`][`${semester}`]} worksName={school} worksSemester={semester}></WorkItem> */}
                     {/* 使用 map 函数来渲染 currentWorks 中的每个作品 */}
                     {currentWorks.map((work, index) => (
-                        <WorkItem 
+                        <WorkItem
                             key={index}
-                            WorksListSemester={work} 
-                            worksName={school} 
+                            WorksListSemester={work}
+                            worksName={school}
                             worksSemester={semester} />
                     ))}
                 </ul>
@@ -70,6 +68,6 @@ export default function WorksList({ school, semester }) {
                 )}
             </div>
         </div>
-        
+
     )
 }

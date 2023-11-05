@@ -2,9 +2,9 @@ import bannerNtut from "../assets/PageBannerNtut2.png"
 import bannerNtutSm from "../assets/PageBannerNtut2-sm.png"
 import bannerNtue from "../assets/PageBannerNtue2.png"
 import bannerNtueSm from "../assets/PageBannerNtue2-sm.png"
-export default function PageBanner({ school , semester }) {
-    
-    
+export default function PageBanner({ school, semester }) {
+
+
     // 圖片banner
 
     const pageBannerPC = (ev) => {
@@ -51,6 +51,7 @@ export default function PageBanner({ school , semester }) {
                             分類
                         </a>
                         <ul className="dropdown-menu">
+                            <li><a className="dropdown-item" href={`/works/${school}/112-1`}>112期中</a></li>
                             <li><a className="dropdown-item" href={`/works/${school}/111-2`}>111期末</a></li>
                             <li><a className="dropdown-item" href={`/works/${school}/111-1`}>111期中</a></li>
                             <li><a className="dropdown-item" href={`/works/${school}/110-2`}>110期末</a></li>

@@ -14,26 +14,16 @@ function Nav({ school, semester }) {
         <li>
           <NavLink
             className={({ isActive }) => (isActive ? styles.a_active : styles.a_active_gray)}
-            to="/works/ntut/111-2"
+            to={`/works/ntut/${semester}`}
           >
-            {/* {[..."NTUT"].map((ele, idx) => (
-              <span key={`text-${idx}-${ele}`}>
-                {ele}
-              </span>
-            ))} */}
             NTUT
           </NavLink>
         </li>
         <li>
           <NavLink
             className={({ isActive }) => (isActive ? styles.a_active_green : styles.a_active_gray)}
-            to="/works/ntue/111-2"
+            to={`/works/ntue/${semester}`}
           >
-            {/* {[..."NTUE"].map((ele, idx) => (
-              <span key={`text-${idx}-${ele}`}>
-                {ele}
-              </span>
-            ))} */}
             NTUE
           </NavLink>
         </li>
