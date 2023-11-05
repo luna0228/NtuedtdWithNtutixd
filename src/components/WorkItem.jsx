@@ -78,10 +78,10 @@ export default function WorkItem({ WorksListSemester, worksName, worksSemester }
                 </div>
                 <div className="bottomContent">
                     <div className="workLink">
-                        <a href={WorksListSemester.pptUrl} title="PPT">
+                        <a href={WorksListSemester.pptUrl} title="PPT" target="_blank">
                             <img src={pptIcon} alt="PPT"></img>
                         </a>
-                        <a href={WorksListSemester.githubUrl} title="github">
+                        <a href={WorksListSemester.githubUrl} title="github" target="_blank">
                             <img src={githubIcon} alt="github"></img>
                         </a>
                     </div>
